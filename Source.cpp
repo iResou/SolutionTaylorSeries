@@ -49,5 +49,8 @@ int main()
     {
         cout <<"\nRecuerda que el valor de n para que se cumpla el calculo de 9 decimales es: 12" << endl;
     }
+    //Si resolvemos la serie de Taylor mediante induccion, el resultado requerido para el valor n es de 11, sin embargo, debido a que en la primera iteracion---
+    //Se llama la funcion de recursion para calcular la constante del primer termino, se le suma 1, con esto, el resultado final de n, es de 12.
+    
     return 0;
 }
